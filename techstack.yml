@@ -1,0 +1,368 @@
+repo_name: hicmtrex/Cryptoverse
+report_id: 613ca921146eb490b5cef46c2857b6a1
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-21T15:37:13+00:00'
+requested_by: hicmtrex
+provider: github
+branch: main
+detected_tools_count: 26
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Ant Design
+  description: A set of high-quality React components
+  website_url: https://ant.design
+  version: 4.16.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6112/12101536.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: Chart.js
+  description: Simple, clean and engaging charts for designers and developers
+  website_url: http://www.chartjs.org/
+  version: 3.5.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.1.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.21.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 11.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: antd
+  description: An enterprise-class UI design language and React components implementation
+  package_url: https://www.npmjs.com/antd
+  version: 4.16.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16201/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 18.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.24.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.25.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+  vulnerabilities:
+  - name: 'Path Traversal: ''dir/../../filename'' in moment.locale'
+    cve_id: CVE-2022-24785
+    cve_url: https://github.com/advisories/GHSA-8hfj-j24r-96c4
+    detected_date: Apr 9
+    severity: high
+    first_patched: 2.29.2
+  - name: Moment.js vulnerable to Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-31129
+    cve_url: https://github.com/advisories/GHSA-wc69-rhjr-hc9g
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.29.4
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 4.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 3.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/hicmtrex/Cryptoverse/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Firstname Lastname
+  last_updated_on: 2021-10-04 19:28:17.000000000 Z
